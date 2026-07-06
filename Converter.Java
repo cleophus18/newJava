@@ -22,13 +22,13 @@ public class Converter{
                     System.out.println("1.Dollar");
                     System.out.println("2.Euro");
                     int RandChoice = sc.nextInt();
-                        if(RandChoice == 1 || RandChoice == 2){
+                        if( RandChoice == 1 || RandChoice == 2){
                             if(RandChoice == 1){
                              System.out.println("****************************************************");
                              System.out.println("Enter the amount you want to convert(RANDS):");
                              System.out.println("****************************************************");
                              double Rands = sc.nextInt();
-                             double Outcome = Rands * 0,062;
+                             double Outcome = Rands * 0.062;
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome);
                              System.out.println("****************************************************");
@@ -38,7 +38,7 @@ public class Converter{
                              System.out.println("Enter the amount you want to convert(RANDS):");
                              System.out.println("****************************************************");
                              double Rands = sc.nextInt();
-                             double Outcome1 = Rands * 0,054;
+                             double Outcome1 = Rands * 0.054;
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome1);
                              System.out.println("****************************************************");
@@ -60,7 +60,7 @@ public class Converter{
                              System.out.println("Enter the amount you want to convert(Dollar):");
                              System.out.println("****************************************************");
                              double Dollar= sc.nextInt();
-                             double Outcome2 = Dollar * 16,22;
+                             double Outcome2 = Dollar * 16.22;
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome2);
                              System.out.println("****************************************************");
@@ -69,7 +69,7 @@ public class Converter{
                              System.out.println("Enter the amount you want to convert(Dollar):");
                              System.out.println("****************************************************");
                              double Dollar= sc.nextInt();
-                             double Outcome3 = Dollar * 0,88;
+                             double Outcome3 = Dollar * 0.88;
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome3);
                              System.out.println("****************************************************");
@@ -94,7 +94,7 @@ public class Converter{
                              System.out.println("Enter the amount you want to convert(Euro):");
                              System.out.println("****************************************************");
                              double Euro = sc.nextInt();
-                             double Outcome4 = Euro * 18,54;
+                             double Outcome4 = Euro * 18.54;
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome4);
                              System.out.println("****************************************************");
@@ -104,7 +104,7 @@ public class Converter{
                              System.out.println("Enter the amount you want to convert(Euro):");
                              System.out.println("****************************************************");
                              double Euro = sc.nextInt();
-                             double Outcome5 = Euro * 1,14 ;
+                             double Outcome5 = Euro * 1.14 ;
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome5);
                              System.out.println("****************************************************");
