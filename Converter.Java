@@ -55,7 +55,7 @@ public class Converter{
                     System.out.println("2.Euro");
                     int DollarChoice = sc.nextInt();
                         if(DollarChoice == 1 || DollarChoice == 2){
-                            if(RandChoice == 1){
+                            if(DollarChoice == 1){
                              System.out.println("****************************************************");
                              System.out.println("Enter the amount you want to convert(Dollar):");
                              System.out.println("****************************************************");
@@ -64,7 +64,7 @@ public class Converter{
                              System.out.println("****************************************************");
                              System.out.println("Converted to :" + Outcome2);
                              System.out.println("****************************************************");
-                            }else if(RandChoice == 2){
+                            }else if(DollarChoice == 2){
                              System.out.println("****************************************************");
                              System.out.println("Enter the amount you want to convert(Dollar):");
                              System.out.println("****************************************************");
