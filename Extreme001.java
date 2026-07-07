@@ -1,13 +1,13 @@
-//FIRSTLY IM GOING IMPORT THE SCANNER SO IT CAN BE THE MAIN TOOL USED
+
 import java.util.Scanner;
 
 public class Extreme001{
     public static void main(String[] args) {
-        //ENTERED THE SCANNER COMMAND TO ACTIVATE THE SCANNER//
+       
         Scanner scanner = new Scanner(System.in);
-        //THIS IS A WHILE LOOP THAT WILL RUN UNTIL THE USER CHOOSES TO EXIT//
+   
         while (true) {
-            //THIS IS THE MAIN MENU FOR THE STUDENT MANAGEMENT SYSTEM//
+            
             System.out.println("ABC College Student Management");
             System.out.println("1. NEW APPLICATION");
             System.out.println("2. SEARCH FOR STUDENT INFORMATION");
