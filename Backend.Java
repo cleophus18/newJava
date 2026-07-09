@@ -27,10 +27,10 @@
 
         }else{
            System.out.println("Please enter the given number:");
+           System.exit(0);
         }
         
         }
-        System.exit(0);
 
 
     }

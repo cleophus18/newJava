@@ -23,6 +23,9 @@ public class Extreme{
              switch (Num1){
                case 1:
                   Backend.saveProduct();
+                break;
+               case 2:
+                 
                 return;
                 default:
                     System.out.println("INVALID OPTION PLEASE TRY AGAIN.");
