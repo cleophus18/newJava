@@ -1,7 +1,7 @@
  import java.util.ArrayList;
  import java.util.Scanner;
 
- private class Backend{
+ public class Backend{
 
     private static ArrayList<Backend> Information = new ArrayList<>();
 
@@ -27,12 +27,12 @@
 
         }else{
            System.out.println("Please enter the given number:");
-           System.exit(0);
-        }
+         }
+         System.exit(0);
         
         }
 
-
+z
     }
 
      
